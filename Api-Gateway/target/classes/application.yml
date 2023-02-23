@@ -1,0 +1,31 @@
+##cloud:
+##  gateway:
+##    routes:
+##      - id: EMPLOYEE-SERVICE
+##        uri: lb://EMPLOYEE-SERVICE
+##        predicates:
+##          -path=/EMPLOYEE-SERVICE/employee/**
+##        filters:
+##          - AddRequestHeader=employee-request, employee-request-header
+##            - AddResponseHeader=employee-response, employee-response-header
+##
+##      - id: ADMIN-SERVICE
+##        uri: lb://ADMIN-SERVICE
+##        predicates:
+##          -path=/ADMIN-SERVICE/admin/**
+##        filters:
+##          - AddRequestHeader=admin-request, admin-request-header
+##            - AddResponseHeader=admin-response, admin-response-header
+#
+#
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka
+#
+#server:
+#  port: 8082
+#
+#spring:
+#  application:
+#    name: Api-Gateway
