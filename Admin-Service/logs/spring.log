@@ -1,0 +1,69 @@
+2023-02-23 13:05:27.022  INFO 9996 --- [restartedMain] c.pws.admin.PwsAdminServiceApplication   : Starting PwsAdminServiceApplication using Java 19.0.2 on DESKTOP-CCRJIGP with PID 9996 (F:\Eureka\admin-service\admin-service\target\classes started by LENOVO in F:\Eureka\admin-service\admin-service)
+2023-02-23 13:05:27.030  INFO 9996 --- [restartedMain] c.pws.admin.PwsAdminServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-02-23 13:05:27.141  INFO 9996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-23 13:05:27.142  INFO 9996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-23 13:05:28.698  INFO 9996 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-23 13:05:29.008  INFO 9996 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 299 ms. Found 6 JPA repository interfaces.
+2023-02-23 13:05:29.434  INFO 9996 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=df42f4e5-25b2-3121-a53a-c54d418f1837
+2023-02-23 13:05:29.726  INFO 9996 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 13:05:29.728  INFO 9996 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 13:05:29.731  INFO 9996 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 13:05:30.424  INFO 9996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-23 13:05:30.438  INFO 9996 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-23 13:05:30.439  INFO 9996 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-02-23 13:05:30.589  INFO 9996 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-23 13:05:30.589  INFO 9996 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3420 ms
+2023-02-23 13:05:30.881  INFO 9996 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-23 13:05:30.971  INFO 9996 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2023-02-23 13:05:31.205  INFO 9996 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-23 13:05:31.501  INFO 9996 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-23 13:05:32.088  INFO 9996 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-23 13:05:32.120  INFO 9996 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-23 13:05:33.687  INFO 9996 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-23 13:05:33.702  INFO 9996 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-23 13:05:34.643  WARN 9996 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-23 13:05:35.081  WARN 9996 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/api/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-02-23 13:05:35.082  INFO 9996 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/api/**']
+2023-02-23 13:05:35.083  WARN 9996 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/**', OPTIONS]. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-02-23 13:05:35.083  INFO 9996 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/**', OPTIONS]
+2023-02-23 13:05:35.083  WARN 9996 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/**/*.{js,html,css}']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-02-23 13:05:35.083  INFO 9996 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/**/*.{js,html,css}']
+2023-02-23 13:05:35.116  INFO 9996 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4061bb2c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7fa9060, org.springframework.security.web.context.SecurityContextPersistenceFilter@6d732c2d, org.springframework.security.web.header.HeaderWriterFilter@29a99bd8, org.springframework.security.web.authentication.logout.LogoutFilter@722dc667, com.pws.admin.security.jwt.config.JwtFilter@c351c7b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7802a7ae, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@465270cf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36f5e2a0, org.springframework.security.web.session.SessionManagementFilter@6ed39c42, org.springframework.security.web.access.ExceptionTranslationFilter@55c455be, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@54d88696]
+2023-02-23 13:05:35.413  INFO 9996 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-02-23 13:05:36.646  INFO 9996 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-23 13:05:36.827  INFO 9996 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-02-23 13:05:37.230  WARN 9996 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-23 13:05:37.261  INFO 9996 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-02-23 13:05:37.432  INFO 9996 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-02-23 13:05:37.442  INFO 9996 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-23 13:05:37.541  INFO 9996 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-02-23 13:05:37.541  INFO 9996 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-02-23 13:05:37.541  INFO 9996 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-02-23 13:05:37.542  INFO 9996 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-02-23 13:05:37.542  INFO 9996 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-02-23 13:05:37.542  INFO 9996 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-02-23 13:05:37.542  INFO 9996 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-02-23 13:05:38.202  INFO 9996 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-02-23 13:05:38.205  INFO 9996 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-02-23 13:05:38.209  INFO 9996 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-02-23 13:05:38.217  INFO 9996 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1677137738216 with initial instances count: 0
+2023-02-23 13:05:38.245  INFO 9996 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADMIN-SERVICE with eureka with status UP
+2023-02-23 13:05:38.246  INFO 9996 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1677137738246, current=UP, previous=STARTING]
+2023-02-23 13:05:38.248  INFO 9996 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/DESKTOP-CCRJIGP:admin-service:8080: registering service...
+2023-02-23 13:05:38.287  INFO 9996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-23 13:05:38.288  INFO 9996 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2023-02-23 13:05:38.432  INFO 9996 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVICE/DESKTOP-CCRJIGP:admin-service:8080 - registration status: 204
+2023-02-23 13:05:38.507  INFO 9996 --- [restartedMain] c.pws.admin.PwsAdminServiceApplication   : Started PwsAdminServiceApplication in 12.389 seconds (JVM running for 13.503)
+2023-02-23 13:06:08.220  INFO 9996 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-02-23 13:06:08.220  INFO 9996 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-02-23 13:06:08.221  INFO 9996 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-02-23 13:06:08.221  INFO 9996 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-02-23 13:06:08.221  INFO 9996 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-02-23 13:06:08.221  INFO 9996 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2023-02-23 13:06:08.221  INFO 9996 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-02-23 13:06:08.248  INFO 9996 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-02-23 13:07:41.065  INFO 9996 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-23 13:07:41.065  INFO 9996 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-23 13:07:41.068  INFO 9996 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-02-23 13:10:37.552  INFO 9996 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-02-23 13:15:37.568  INFO 9996 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
